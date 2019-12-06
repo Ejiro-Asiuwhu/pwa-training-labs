@@ -30,6 +30,20 @@
   overflow: auto;
 }
 
+.container .col {
+  flex: 1;
+  padding: 1rem;
+}
+
+.container .col:nth-child(1) {
+  flex-basis: 1.5rem;
+}
+
+.container .col:nth-child(3) {
+  flex-basis: 1.5rem;
+}
+
+
 /* TODO 4 - use media query */
 
 /* TODO 5.2 - use flexbox */
