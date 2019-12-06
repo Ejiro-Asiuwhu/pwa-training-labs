@@ -62,7 +62,11 @@
 
 
 
-/* TODO 4 - use media query */
+@media screen and (max-width: 48rem) {
+  .container {
+    flex-flow: column;
+  }
+}
 
 /* TODO 5.2 - use flexbox */
 
